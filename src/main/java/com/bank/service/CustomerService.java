@@ -47,6 +47,12 @@ public class CustomerService {
         return DTOMapper.toCustomerDTO(customer);
     }
 
+    public CustomerDTO getProfileByEmail(String email) {
+        Customer customer = customerRepository.findByEmail(email)
+                .orElseThrow(() -> new AccountNotFoundException("Customer not found"));
+        return DTOMapper.toCustomerDTO(customer);
+    }
+
     public CustomerDTO updateProfile(Long id, Customer data) {
         Customer existing = customerRepository.findById(id)
                 .orElseThrow(() -> new AccountNotFoundException("Customer not found"));
