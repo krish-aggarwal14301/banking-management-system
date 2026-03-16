@@ -1,0 +1,15 @@
+$kind: http-request
+name: "8. Test: FD Early Withdrawal Error"
+url: http://localhost:8080/api/accounts/ACC2026A4C6CB/withdraw
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "amount": 1000
+    }
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGJhbmsuY29tIiwiaWF0IjoxNzczNjgxMzYyLCJleHAiOjE3NzM3Njc3NjJ9.wA67WPmcrQuNK7Q03uHsFV462_UXt-H6OjdI_ngTAMo
+order: 4503579673289854

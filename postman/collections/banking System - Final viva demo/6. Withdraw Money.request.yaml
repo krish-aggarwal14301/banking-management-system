@@ -1,0 +1,14 @@
+$kind: http-request
+url: localhost:8080/api/accounts/ACC202602B4D2/withdraw
+method: POST
+body:
+  type: json
+  content: |-
+    {
+        "amount": 5000
+    }
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGJhbmsuY29tIiwiaWF0IjoxNzczNjgxMzYyLCJleHAiOjE3NzM3Njc3NjJ9.wA67WPmcrQuNK7Q03uHsFV462_UXt-H6OjdI_ngTAMo
+order: 4503356104337803

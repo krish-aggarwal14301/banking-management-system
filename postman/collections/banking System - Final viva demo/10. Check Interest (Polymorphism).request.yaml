@@ -1,0 +1,8 @@
+$kind: http-request
+url: http://localhost:8080/api/accounts/ACC2026A4C6CB/interest
+method: GET
+auth:
+  type: bearer
+  credentials:
+    token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGJhbmsuY29tIiwiaWF0IjoxNzczNjgxMzYyLCJleHAiOjE3NzM3Njc3NjJ9.wA67WPmcrQuNK7Q03uHsFV462_UXt-H6OjdI_ngTAMo
+order: 4503581463317237

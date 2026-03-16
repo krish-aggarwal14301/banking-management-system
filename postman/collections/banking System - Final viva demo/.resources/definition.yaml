@@ -1,0 +1,8 @@
+$kind: collection
+name: banking System - Final viva demo
+auth:
+  - id: 0c56cccf-271c-4080-b4b6-6ecccc92f4e6
+    type: bearer
+    name: Bearer Token
+    credentials:
+      token: eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0QGJhbmsuY29tIiwiaWF0IjoxNzczNjgxMzYyLCJleHAiOjE3NzM3Njc3NjJ9.wA67WPmcrQuNK7Q03uHsFV462_UXt-H6OjdI_ngTAMo
